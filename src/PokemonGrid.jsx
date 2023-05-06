@@ -17,6 +17,7 @@ export const PokemonGrid = ({pokemon, pokemonUrl}) => {
   return (
     <div>
         {console.log(pokArray)}
+        {console.log(pokUrlArray)}
         <p className='card' key={pokemon}>{pokemon}{pokemonUrl}</p>
     </div>
   )
